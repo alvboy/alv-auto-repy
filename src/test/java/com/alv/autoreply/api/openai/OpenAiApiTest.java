@@ -1,15 +1,13 @@
-package com.yupi.autoreply.api.openai;
+package com.alv.autoreply.api.openai;
 
-import com.yupi.autoreply.api.openai.model.CreateCompletionRequest;
-import com.yupi.autoreply.api.openai.model.CreateCompletionResponse;
-import com.yupi.autoreply.api.openai.model.ModelConstant;
+import com.alv.autoreply.api.openai.model.CreateCompletionRequest;
+import com.alv.autoreply.api.openai.model.CreateCompletionResponse;
+import com.alv.autoreply.api.openai.model.ModelConstant;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * OpenAiApi 测试
@@ -23,7 +21,7 @@ class OpenAiApiTest {
     @Resource
     private OpenAiApi openAiApi;
 
-    private static final String OPENAI_API_KEY = "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";
+    private static final String OPENAI_API_KEY = "你的Api key";
 
     @Test
     void createCompletion() {

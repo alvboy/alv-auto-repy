@@ -1,9 +1,9 @@
-package com.yupi.autoreply.api.zsxq;
+package com.alv.autoreply.api.zsxq;
 
-import com.yupi.autoreply.api.zsxq.model.AnswerRequest;
-import com.yupi.autoreply.api.zsxq.model.AnswerResponse;
-import com.yupi.autoreply.api.zsxq.model.ListTopicsRequest;
-import com.yupi.autoreply.api.zsxq.model.ListTopicsResponse;
+import com.alv.autoreply.api.zsxq.model.AnswerRequest;
+import com.alv.autoreply.api.zsxq.model.AnswerResponse;
+import com.alv.autoreply.api.zsxq.model.ListTopicsRequest;
+import com.alv.autoreply.api.zsxq.model.ListTopicsResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

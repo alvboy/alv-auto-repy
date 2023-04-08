@@ -21,8 +21,8 @@ import java.util.concurrent.Executors;
  * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
  * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
-@Configuration
-@ConfigurationProperties(prefix = "task")
+//@Configuration
+//@ConfigurationProperties(prefix = "task")
 @Data
 @Slf4j
 public class TaskConfig implements SchedulingConfigurer {
